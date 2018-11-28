@@ -1,2 +1,9 @@
+
 page-branch {
+    ion-card .content {
+        padding: 10px;
+        button {
+            float: right;
+        }
+    }
 }
