@@ -14,19 +14,21 @@
 
 
 <ion-content padding>
+  <ion-card>
     <img src="../../assets/imgs/rest1.jpg" alt="">
-    
-    <div>
-        <p>The Original Peachers restaurant</p>
+    <ion-card-content>
+        <p class="restaurant-title">The Original Peachers restaurant</p>
         <p>It all started with this one back in 1991.</p>
         <button ion-button (click)="nextPage()">Select</button>
-    </div>
-    
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
     <img src="../../assets/imgs/rest2.jpg" alt="">
-      
-    <div>
-      <p>The New Peachers restaurant</p>
+    <ion-card-content>
+      <p class="restaurant-title">The New Peachers restaurant</p>
       <p>This one makes most of the money for us.</p>
       <button ion-button (click)="nextPage()">Select</button>
-    </div>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
