@@ -15,7 +15,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class FoodmenuPage {
 
-  checked = false;
+  checkGoldMember = true;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

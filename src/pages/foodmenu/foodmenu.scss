@@ -23,4 +23,14 @@ page-foodmenu {
         }
     }
 
+    ion-content.is-goldmember {
+        background-color: #fffb96;
+    }
+
+    .is-goldmember {
+        .description {
+            background-color: #05ffa1;
+        }
+    }
+
 }
